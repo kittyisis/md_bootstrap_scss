@@ -1,0 +1,68 @@
+/*!
+ * Material Design for Bootstrap 4
+ * Version: MDB Free 4.5.14
+ *
+ *
+ * Copyright: Material Design for Bootstrap
+ * https://mdbootstrap.com/
+ *
+ * Read the license: https://mdbootstrap.com/license/
+ *
+ *
+ * Documentation: https://mdbootstrap.com/
+ *
+ * Getting started: https://mdbootstrap.com/getting-started/
+ *
+ * Tutorials: https://mdbootstrap.com/bootstrap-tutorial/
+ *
+ * Templates: https://mdbootstrap.com/templates/
+ *
+ * Support: https://mdbootstrap.com/support/
+ *
+ * Contact: office@mdbootstrap.com
+ *
+ * Atribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
+ *
+ */
+
+ @charset "UTF-8";
+
+ // Bootstrap
+//  @import "bootstrap/bootstrap";
+//  @import "bootstrap/bootstrap-grid";
+//  @import "bootstrap/bootstrap-reboot";
+ @import "core/bootstrap/functions";
+ @import "core/bootstrap/variables";
+
+ // CORE
+ @import "core/mixins";
+ // Your custom variables
+ @import "custom-variables";
+ @import "core/colors";
+ @import "core/variables";
+ @import "core/global";
+ @import "core/helpers";
+ @import "core/typography";
+ @import "core/masks";
+ @import "core/waves";
+
+// Angular
+@import "angular/breadcrumbs";
+@import "angular/inputs";
+@import "angular/cards";
+@import "angular/list-group";
+@import "angular/navbar";
+@import "angular/waves";
+@import "angular/dropdowns";
+@import "angular/tooltip";
+@import "angular/sections";
+@import "angular/popover";
+@import "angular/carousel";
+@import "angular/maps";
+@import "angular/layout";
+@import "angular/modals";
+@import "angular/checkbox";
+
+
+// Your custom styles
+@import "custom-styles";
